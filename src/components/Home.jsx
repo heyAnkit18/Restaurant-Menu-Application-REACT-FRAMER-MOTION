@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'; // Create Home.css for styles
+import './Home.css'; 
 import video from '../assets/video.mp4';
 
 const Home = () => {
