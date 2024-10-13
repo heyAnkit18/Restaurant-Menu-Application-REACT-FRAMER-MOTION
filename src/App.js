@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Menu from './components/Menu';
+import Reviews from './components/Reviews';
+import Contact from './components/Contact';
+import './index.css';
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState('dark');
+
+  const toggleTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={theme}>
+      <Navbar toggleTheme={toggleTheme} />
+      <Home />
+      <About />
+      <Menu />
+      <Reviews />
+      <Contact />
     </div>
   );
-}
+};
 
 export default App;
+
+
+
+
