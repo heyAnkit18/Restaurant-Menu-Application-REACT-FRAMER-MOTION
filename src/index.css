@@ -1,22 +1,19 @@
-/* index.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* Apply the Poppins font globally */
 body {
   font-family: 'Poppins', sans-serif;
-  margin: 0; /* Reset margin */
-  padding: 0; /* Reset padding */
-  background-color: #121212; /* Optional: Set a background color */
-  color: #ffffff; /* Optional: Set default text color */
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
 }
-  
-  .dark {
-    background-color: #121212;
-    color: #f7c08a;
-  }
-  
-  .light {
-    background-color: #ffffff;
-    color: #333;
-  }
-  
+
+.dark {
+  background-color: #121212;
+  color: #f7c08a;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #333;
+}
