@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { FaFacebookF, FaInstagram } from 'react-icons/fa'; // Import icons
+import { FaFacebookF, FaInstagram } from 'react-icons/fa'; 
 import './Navbar.css';
 
 const Navbar = () => {
@@ -21,7 +21,6 @@ const Navbar = () => {
         <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
       </ul>
 
-      {/* Social Media Icons */}
       <div className="social-icons">
         <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
           <FaInstagram className="social-icon" />

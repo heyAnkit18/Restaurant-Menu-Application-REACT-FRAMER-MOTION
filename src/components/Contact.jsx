@@ -31,7 +31,7 @@ const Contact = () => {
           title="Google Map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609924614!2d72.74110198984968!3d19.082197839603797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63ff02e2045%3A0xabc!2sMumbai!5e0!3m2!1sen!2sin!4v1634702592345!5m2!1sen!2sin"
           width="100%"
-          height="400" // Adjust height for better visibility
+          height="400" 
           style={{ border: '0' }}
           allowFullScreen=""
           loading="lazy"

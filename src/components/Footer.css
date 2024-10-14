@@ -1,7 +1,6 @@
-/* Footer styles */
 .footer {
     background-color: #1a1a1a;
-    color: #f1f1f1;
+    color:#f7c08a;
     padding: 40px 20px;
     font-family: 'Arial', sans-serif;
     border-top: 2px solid #333;
@@ -23,7 +22,7 @@
   
   .footer-left h3 {
     font-size: 1.8rem;
-    color: #eff1f1;
+    color:#f7c08a;
     margin-bottom: 10px;
   }
   
@@ -34,7 +33,7 @@
   
   .footer-center h4, .footer-right h4 {
     font-size: 1.2rem;
-    color: #f5f8f8;
+    color:#f7c08a;
     margin-bottom: 10px;
   }
   
