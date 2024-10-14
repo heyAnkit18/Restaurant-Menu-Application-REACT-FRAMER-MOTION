@@ -1,0 +1,105 @@
+.contact-map-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 50px;
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .map-container {
+    flex: 1;
+    margin-right: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-container {
+    flex: 1;
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .contact-container h2 {
+    font-size: 2.5rem;
+    color: #f4f7f8;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    margin-bottom: 8px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    border: 2px solid #444;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #f1f1f1;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #fafbfc;
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+    outline: none;
+  }
+  
+  .contact-button {
+    background-color: #f8faf9;
+    color: #1a1a1a;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 212, 255, 0.2);
+    width: 100%;
+  }
+  
+  .contact-button:hover {
+    background-color: #0ae34b;
+    transform: translateY(-2px);
+  }
+  
+  .contact-button:focus {
+    outline: none;
+  }
+  
+  .contact-button:active {
+    background-color: #0dcc36;
+    transform: translateY(2px);
+  }
+  
+  @media (max-width: 800px) {
+    .contact-map-section {
+      flex-direction: column;
+    }
+  
+    .map-container {
+      margin-right: 0;
+      margin-bottom: 40px;
+    }
+  }
+  
