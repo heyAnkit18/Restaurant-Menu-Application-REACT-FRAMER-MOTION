@@ -33,6 +33,7 @@
   font-weight: 500;
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer; 
 }
 
 .nav-links li a:hover {
@@ -40,19 +41,22 @@
   color: #121212;
 }
 
-.theme-toggle {
-  background-color: #f7c08a;
-  color: #121212;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.social-icons {
+  display: flex;
+  gap: 15px;
 }
 
-.theme-toggle:hover {
-  background-color: #121212;
+.social-icon {
+  font-size: 1.5rem;
   color: #f7c08a;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+.social-icon:hover {
+  color: #ffffff;
+  transform: scale(1.2); 
+}
+
+
 
 
