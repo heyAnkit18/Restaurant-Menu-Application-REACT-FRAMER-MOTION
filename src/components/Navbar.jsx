@@ -12,7 +12,6 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ type: 'spring', stiffness: 120 }}
     >
-   
       <div className="logo">Punjabi Tadka</div>
       <ul className="nav-links">
         <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
@@ -36,6 +35,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
