@@ -10,9 +10,11 @@ const Navbar = () => {
       className="navbar"
       initial={{ y: -250 }}
       animate={{ y: 0 }}
-      transition={{ type: 'spring', stiffness: 120 }}
+      transition={{ type: 'spring', stiffness: 124 }}
     >
       <div className="logo">Punjabi Tadka</div>
+      
+      {/* Navbar Links */}
       <ul className="nav-links">
         <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
         <li><Link to="about" smooth={true} duration={500}>About</Link></li>
@@ -21,6 +23,7 @@ const Navbar = () => {
         <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
       </ul>
 
+      {/* Social Icons */}
       <div className="social-icons">
         <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
           <FaInstagram className="social-icon" />
@@ -34,6 +37,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
 
 
 

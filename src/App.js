@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -9,26 +9,21 @@ import './index.css';
 import Footer from './components/Footer';
 
 const App = () => {
-  const [theme, setTheme] = useState('dark');
-
-  const toggleTheme = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
-  };
-
   return (
-    <div className={theme}>
-      <Navbar toggleTheme={toggleTheme} />
+    <div>
+      <Navbar />
       <Home />
       <About />
       <Menu />
       <Reviews />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
 
 export default App;
+
 
 
 
