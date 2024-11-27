@@ -1,5 +1,5 @@
 import React from 'react';
-import './Reviews.css'; // CSS file for styling
+import './Reviews.css'; 
 
 // Import images from the assets folder
 import user1 from '../assets/user1.jpg';
@@ -12,7 +12,7 @@ const Reviews = () => {
       name: 'John Doe',
       review: 'The service was amazing, and the food was delicious. Highly recommend!',
       rating: 5,
-      image: user1 // Use the imported image
+      image: user1
     },
     {
       name: 'Jane Smith',
